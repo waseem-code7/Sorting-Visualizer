@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Mynerve&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="main-nav">
+        <div class="title">
+            Sorting Visualizer
+        </div>
+    </nav>
+    <div id="container">
+    </div>
+    <div id="box-main" class="box">
+    </div>
+    <div class="buttons">
+        <button class="init" id="add-bars" onclick="init()">Init</button>
+        <button class="play" id="visualize" onclick="visualize()">Play</button>
+        <select id="algo" class="select-algo">
+            <option value="1">Bubble Sort</option>
+            <option value="2">Selection Sort</option>
+            <option value="3">Insertion Sort</option>
+            <option value="4">Merge Sort</option>
+            <option value="5">Quick Sort</option>
+            <option value="6">Heap Sort</option>
+        </select>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

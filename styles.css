@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    background-color: #9BE8D8;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Mynerve', cursive;
+}
+
+.title {
+    margin: 0;
+}
+
+.main-nav {
+    height: 70px;
+    background-color: #78C1F3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+.buttons {
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons > button {
+    width: 90px;
+    height: 40px;
+    border: none;
+    margin: 10px 10px 0 10px;
+    background-color: rgb(232, 243, 232);
+    transition-duration: 0.4s;
+}
+
+.buttons > button:hover {
+    background-color: #78C1F3; /* Green */
+    color: white;
+  }
+  
+
+.bar {
+    transition: all ease 0.5s;
+    background-color: #468B97;
+    border: 2px solid black;
+    width: 25px;
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    margin-top: 10%;
+    overflow: hidden;
+}
+
+.buttons > .select-algo {
+    margin-top: 10px;
+    height: 40px;
+    margin-left: 8px;
+    background-color: rgb(232, 243, 232);
+    transition-duration: 0.4s;
+}
+
+.buttons > .select-algo:hover {
+    background-color: #78C1F3; /* Green */
+    color: white;
+}
+
+.box {
+    width: 400px;
+    height: 50px;
+    background-color: #468B97;
+    color: azure;
+    position: absolute;
+    top: 10%;
+    left: 37%;
+    border-radius: 10%;
+    text-align: center;
+    opacity: 0;
+}
